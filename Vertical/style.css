@@ -1,0 +1,59 @@
+.border {
+    border: 1px solid;
+}
+img {
+    width: 100px;
+}
+li:hover{
+    background-color: aqua;
+}
+p::first-letter{
+    color: black;
+    font-size: xx-large;
+}
+.card {
+    width: 200px;
+    padding: 5%;
+    box-sizing: border-box;
+    animation-name: Animation;
+    animation-duration: 20s;
+}
+.display {
+    display: inline-block;
+    padding: 2%;
+    animation-name: Animasi;
+    animation-duration: 20s;
+}
+.wadah {
+    width: 600px;
+    margin: auto;
+}
+.horizontal {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.rata {
+    text-align: center;
+}
+.warna {
+    background-image:linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    color: black;
+}
+@keyframes Animation {
+    0%   {background-color: rgb(0, 251, 255);}
+    25%  {background-color: rgb(30, 255, 0);}
+    50%  {background-color: rgb(255, 0, 0);}
+    100% {background-color: rgb(46, 89, 229);}
+}
+.display:hover{
+    animation-name: Animation;
+    animation-duration: 20s;
+}
+@keyframes Animasi {
+    0%   {background-color: rgb(57, 83, 255);}
+    25%  {background-color: rgb(255, 0, 0);}
+    50%  {background-color: rgb(72, 255, 0);}
+    100% {background-color: rgb(0, 255, 255);}
+}
